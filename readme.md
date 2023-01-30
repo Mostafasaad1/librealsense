@@ -3,6 +3,8 @@
 -----------------
 [![GitHub CI](../../actions/workflows/buildsCI.yaml/badge.svg?branch=development)](../../actions/workflows/buildsCI.yaml)
 
+## This Forked version to be used in Ubuntu kinetic with lastest kernel "Ubuntu-5.19.0-26.27" 
+
 ## Overview
 **Intel® RealSense™ SDK 2.0** is a cross-platform library for Intel® RealSense™ depth cameras (D400 & L500 series and the SR300) and the [T265 tracking camera](./doc/t265.md).
 
