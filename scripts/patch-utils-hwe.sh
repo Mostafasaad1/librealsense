@@ -120,10 +120,10 @@ function choose_kernel_branch {
 			exit 1
 			;;
 		esac
-	elif [ "$2" == "jammy" ]; 				# Ubuntu 22
+	elif [ "$2" == "jammy" ] || [ "$2" == "kinetic" ]; 				# Ubuntu 22
 	then
 		case "${kernel_version[0]}.${kernel_version[1]}" in
-		"5.15")
+		"5.19")
 			echo master-next
 			;;
 		*)
